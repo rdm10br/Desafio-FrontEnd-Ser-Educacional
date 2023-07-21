@@ -21,7 +21,16 @@ img {width: 100%;}
     .menu{
         display: block;
     }
-    .menu-flutuante-menu{
+    .menu.ativo .bar:nth-child(1){
+        transform:  translateY(8px) rotate(45deg);
+    }
+    .menu.ativo .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .menu.ativo .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
         position: fixed;
         right: -100%;
         top: 70px;
@@ -31,6 +40,9 @@ img {width: 100%;}
         background: var(--color-light);
         gap: -10px;
         transition: 0.3s;
+    }
+    .menu-item{
+        margin: 16px 0;
     }
 }
 
