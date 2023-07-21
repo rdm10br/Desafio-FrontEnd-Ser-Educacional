@@ -24,61 +24,62 @@ img {width: 100%;}
     img {width: 25%;}
 }
 .menu-flutuante {
-    position: fixed;
     top: 0;
     left: 0;
     background-color: #FFF;
-    padding: 10px;
+    padding: 18px 40px;
     width: 100%;
+    box-shadow: 0 0.1rem 0.5rem #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.5s;
   }  
 .menu-flutuante ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
 } 
+.menu-flutuante ul li a:hover{
+    color: var(--color-blue2);
+}
+.menu-flutuante i{
+    cursor: pointer;
+    font-size: 1.5rem;
+}
 .menu-flutuante li {
     display: inline-block;
     margin-right: 20px;
-} 
-.menu-flutuante li:last-child {
-    margin-right: 0;
 }
-.menu-flutuante a {
-    color: #333;
-    text-decoration: none;
-    font-size: 16px;
+.menu{
+    cursor: pointer;
+    display: none;
 }
-.buttons{
-    width: 15%;
-    align-self: auto;
-    text-align: center;
-    background-color: transparent;
+.menu .bar{
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 3px;
+    background: var(--color-dark);
+    margin: 5px auto;
 }
-.hotel-logo{
-    background-image: url("img\hotel-logo.png");
-}
-.container {
+
+.main-content {
+    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 20% 20%;
-  }
-.imagem-principal{
-    display: grid;
-    background-size: cover;
-    background-position: center;
-    background-image: url('img\hotel-hero.png');
+    justify-content: space-evenly;
+    background-image: url("img\hotel-hero.png");
 }
-.texto-principal{
-    text-size-adjust: 100%;
-    text-align: center;
-    text-shadow: 9696ff;
-    font-size: 25px;
-    font-style: var(--color-light);
+.texto-h4{
+
+}
+.texto-h1{
+
 }
 .button-elipse{
     background-color:rgb(26, 135, 225,0.7);
-    align-items: center;
     padding: 10px 20px;
     color: #fff;
     font-size: 14px;
