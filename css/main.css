@@ -23,18 +23,65 @@ img {width: 100%;}
 @media screen and (min-width: 1025px) {
     img {width: 25%;}
 }
-
-.top-bar{
-    /* .hotel-logo;
-    .buttons; */
+.menu-flutuante {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #FFF;
+    padding: 10px;
+    width: 100%;
+  }  
+.menu-flutuante ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+} 
+.menu-flutuante li {
+    display: inline-block;
+    margin-right: 20px;
+} 
+.menu-flutuante li:last-child {
+    margin-right: 0;
 }
-
+.menu-flutuante a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+}
 .buttons{
     width: 15%;
-    height: 15%;
-    align-self: flex-end;
+    align-self: auto;
+    text-align: center;
+    background-color: transparent;
 }
-
 .hotel-logo{
     background-image: url("img\hotel-logo.png");
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20% 20%;
+  }
+.imagem-principal{
+    display: grid;
+    background-size: cover;
+    background-position: center;
+    background-image: url('img\hotel-hero.png');
+}
+.texto-principal{
+    text-size-adjust: 100%;
+    text-align: center;
+    text-shadow: 9696ff;
+    font-size: 25px;
+    font-style: var(--color-light);
+}
+.button-elipse{
+    background-color:rgb(26, 135, 225,0.7);
+    align-items: center;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    border-radius: 60%;
 }
