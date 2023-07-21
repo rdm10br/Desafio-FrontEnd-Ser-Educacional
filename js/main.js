@@ -1,10 +1,3 @@
-// const menu = document.querySelector('.mobile-menu');
-// const NavMenu = document.querySelector('.nav-menu');
-
-// menu.addEventListener('click',() => {
-//     menu.classList.toggle('ativo');
-//     NavMenu.classList.toggle('ativo');
-// })
 class MobileNavBar{
     constructor(MobileMenu, navList, navLinks){
         this.mobileMenu = document.querySelector(mobileMenu);

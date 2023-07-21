@@ -24,7 +24,7 @@ img {width: 100%;}
         right: 0;
         width: 50vw;
         height: 92vh;
-        background: #FFF;
+        background: var(--color-blue2);
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
