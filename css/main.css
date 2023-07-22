@@ -220,15 +220,16 @@ p {
 
 }
 
-.icon--offer {
+.icon-offer {
     display: flex;
-    width: 5%;
-    height: 10%;
-    align-items: center;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
 }
+.icon-offer li{
+    margin-left: 24%;
+}
+.icon-offer i{
+    
+}
+
 footer{
     background-color: var(--color-blue2);
     padding-bottom: 5vh;
