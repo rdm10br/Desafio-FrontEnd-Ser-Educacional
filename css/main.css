@@ -17,6 +17,7 @@
     font-size: 100%;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    z-index: 0;
 }
 
 ul {
@@ -94,6 +95,7 @@ a:hover {
     justify-content: space-around;
     transition: all 0.5s;
     position: fixed;
+    z-index: 10;
 }
 
 .nav-list {
@@ -143,24 +145,28 @@ a:hover {
 .main-content .texto-h4 {
     position: absolute;
     margin-top: -28%;
-    margin-left: 24%;
+    margin-left: 50%;
     font-size: 2rem;
     color: #FFF;
     margin-bottom: 0.7rem;
     outline: #1188EE;
     text-shadow: 3px 3px 5px var(--color-blue3);
     text-align: center;
+    transform: translate(-50%, -50%);
+    z-index: 3;
 }
 
 .main-content .texto-h1 {
     position: absolute;
     margin-top: -23%;
-    margin-left: 30%;
+    margin-left: 50%;
     font-size: 1.2rem;
     color: #FFF;
     margin-bottom: 0.5rem;
     text-shadow: 3px 3px 5px var(--color-blue3);
     text-align: center;
+    transform: translate(-50%, -50%);
+    z-index: 2;
 }
 
 /* botão com borda em formato de elipse */
@@ -172,6 +178,8 @@ a:hover {
     padding: 10px 20px;
     font-size: 14px;
     border-radius: 60%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
 }
 /* ================classe para evitar sobreposição de cor==================== */
 .button-elipse a {
