@@ -141,8 +141,7 @@ a:hover{
 .main-content .texto-h4{
     position: absolute;
     margin-top: -28%;
-    /* margin-left: 26%;
-    margin-right: 26%; */
+    margin-left: 24%;
     font-size: 2rem;
     color: #FFF;
     margin-bottom: 0.7rem;
@@ -153,7 +152,7 @@ a:hover{
 .main-content .texto-h1{
     position: absolute;
     margin-top: -23%;
-    /* margin-left: 50%; */
+    margin-left: 30%;
     font-size: 1.2rem;
     color: #FFF;
     margin-bottom: 0.5rem;
