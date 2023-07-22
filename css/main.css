@@ -220,6 +220,20 @@ p {
 
 }
 
+.email-cad{
+    display: flex;
+    margin-left: 45%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+.email-cad .email{
+    border-image: round;
+}
+.email-cad .btn-cadastrar{
+    color: var(--color-light) ;
+    border-radius: 15%;
+}
+
 .icon-offer {
     display: flex;
 }
@@ -229,6 +243,7 @@ p {
 .icon-offer i{
     
 }
+
 
 footer{
     background-color: var(--color-blue2);
