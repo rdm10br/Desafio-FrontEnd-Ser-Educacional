@@ -15,6 +15,9 @@ img {width: 100%;}
         width: 25%;
         padding-right: 10px;
     }
+    div{
+        font-size: 25%;
+    }
     body{
         overflow-x: hidden;
     }
@@ -22,8 +25,8 @@ img {width: 100%;}
         position: absolute;
         top: 8vh;
         right: 0;
-        width: 50vw;
-        height: 92vh;
+        width: 100vw;
+        height: 38vh;
         background: var(--color-blue2);
         flex-direction: column;
         align-items: center;
@@ -41,16 +44,25 @@ img {width: 100%;}
     .nav-list.active{
         transform: translateX(0);
     }
+    *{
+        font-size: 25%;
+    }
 }
 
 /* Estilos para telas médias, como tablets */
 @media screen and (min-width: 766px) and (max-width: 1024px) {
     img {width: 25%;}
+    *{
+         
+    }
 }
 
 /* Estilos para telas maiores, como desktops */
 @media screen and (min-width: 1025px) {
     img {width: 25%;}
+    *{
+
+    }
 }
 
 a:hover{
@@ -126,18 +138,28 @@ a:hover{
 }
 
 .main-content .texto-h4{
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 18%;
     font-size: 2rem;
     color: #FFF;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.7rem;
+    outline: #1188EE;
 }
 .main-content .texto-h1{
-    font-size: 2rem;
+    position: absolute;
+    margin-top: -15%;
+    margin-left: 25%;
+    font-size: 1.2rem;
     color: #FFF;
     margin-bottom: 0.5rem;
 }
 
 /* botão com borda em formato de elipse */
 .button-elipse{
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 40%;
     background-color:rgb(26, 135, 225,0.7);
     padding: 10px 20px;
     color: #fff;
