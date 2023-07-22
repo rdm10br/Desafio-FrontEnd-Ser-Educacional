@@ -229,3 +229,14 @@ p {
     margin-left: 5%;
     margin-right: 5%;
 }
+footer{
+    
+    background-color: var(--color-blue2);
+    padding-bottom: 10vh;
+    padding-top: 2vh;
+}
+footer a{
+    align-items: center;
+    color: #FFF;
+    font-style: italic;
+}
