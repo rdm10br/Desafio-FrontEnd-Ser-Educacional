@@ -230,13 +230,20 @@ p {
     margin-right: 5%;
 }
 footer{
-    
     background-color: var(--color-blue2);
-    padding-bottom: 10vh;
-    padding-top: 2vh;
+    padding-bottom: 5vh;
+    padding-top: 1vh;
+    color: #F0F8FF;
 }
 footer a{
-    align-items: center;
-    color: #FFF;
+    position: relative;
+    left: 50vw;
+    top: -2vh;
     font-style: italic;
+}
+footer i{
+    position: relative;
+    left: 50vw;
+    top: -2vh;
+    padding-left: 1%;
 }
