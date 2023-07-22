@@ -18,21 +18,23 @@
     <nav>
         <header>
             <script src="./js/main.js"></script>
-            <nav class="nav">
-                <img src="img\hotel-logo.png" /><a href="/"></a>
-                <div class="mobile-menu">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                </div>
-                <ul class="nav-list">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="Sobre.html">Sobre</a></li>
-                    <li><a href="Depoimentos.html">Depoimentos</a></li>
-                    <li><a href="Agenda.html">Agende</a></li>
-                    <li><a href="Contato.html">Contato</a></li>
-                </ul>
-            </nav>
+            <section>
+                <nav class="nav">
+                    <img src="img\hotel-logo.png" /><a href="/"></a>
+                    <div class="mobile-menu" onclick="mobileNavbar.init()">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                    <ul class="nav-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Sobre.html">Sobre</a></li>
+                        <li><a href="Depoimentos.html">Depoimentos</a></li>
+                        <li><a href="Agenda.html">Agende</a></li>
+                        <li><a href="Contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </section>
         </header>
         <main>
             <section>
@@ -81,7 +83,7 @@
                     <li>Pacotes e Ofertas</li>
                     <li>Acomodações</li>
                 </ul>
-                <ul>
+                <ul class="descricao">
                     <li>Localizada no sul da Bahia, entre o mar e a Mata Atlântica, Itacaré tem refrescantes cachoeiras
                         e praias belissimas, muitas delas tão pequenas que nem aparecem nos mapas.</li>
                     <li>Sabe aquele descontraído encontro com os familiares e amigos? Ou momento relax? Nossa estrutura
@@ -92,12 +94,12 @@
             </section>
             <section>
                 <h5 class="h5">Assine nossa Newsletter</h6>
-                <p>Se mantenha atualizado com nossos serviços e a programação de nossos eventos culturais.</p>
-                <div class="vertical-line"></div>
-                <div class="email-cad">
-                    <input class="email" type="email" name="email" id="email">
-                    <button class="btn-cadastrar" type="submit">CADASTRAR</button>
-                </div>
+                    <p>Se mantenha atualizado com nossos serviços e a programação de nossos eventos culturais.</p>
+                    <div class="vertical-line"></div>
+                    <div class="email-cad">
+                        <input class="email" type="email" name="email" id="email">
+                        <button class="btn-cadastrar" type="submit">CADASTRAR</button>
+                    </div>
             </section>
         </main>
     </nav>
