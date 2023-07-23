@@ -55,7 +55,7 @@ img {
 
     .main-content>div {
         margin-top: 10px;
-        padding-top: -10vh;
+        padding-bottom: 30vh;
     }
     .vertical-line {
         width: 40% !important;
@@ -78,7 +78,7 @@ img {
         margin-left: 0% !important;
     }
     .button-elipse{
-        margin-top: -1vh;
+        margin-bottom: 1vh;
     }
     .grid-fotos {
         display: flex !important;
