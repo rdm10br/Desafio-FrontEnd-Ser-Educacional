@@ -42,20 +42,43 @@ img {
     }
 
     * {
-        font-size:small;
+        font-size: small;
     }
-    footer i{
+
+    footer i {
         padding-top: 30px;
     }
-    h5{
+
+    h5 {
         padding-left: 2.5%;
     }
-    .main-content >div{
-        margin-top: -30px;
+
+    .main-content>div {
+        margin-top: 10px;
     }
-    .vertical-line{
+
+    .vertical-line {
         width: 40% !important;
         margin-left: 32% !important;
+    }
+
+    .email-cad input {
+        margin-left: 5% !important;
+        margin-bottom: 2%;
+    }
+    .email-cad{
+        margin-left: 5% !important;
+    }
+    .btn-cadastrar{
+        width: 95%;
+        margin-left: 0% !important;
+    }
+    .email-cad input{
+        width: 95%;
+        margin-left: 0% !important;
+    }
+    .button-elipse{
+        margin-top: -2vh;
     }
 }
 
@@ -68,17 +91,24 @@ img {
     * {
         /* outline: auto; */
         font-style: normal;
-        font-size:medium;
+        font-size: medium;
     }
-    footer i{
+
+    footer i {
         padding-top: 20px;
     }
-    h5{
+
+    h5 {
         padding-left: 10%;
     }
-    .vertical-line{
+
+    .vertical-line {
         width: 40% !important;
         margin-left: 32% !important;
+    }
+
+    .email-cad input {
+        margin-left: 18% !important;
     }
 }
 
@@ -91,15 +121,18 @@ img {
     * {
         font-style: normal;
         font-size: 100%;
-        font-size:large;
+        font-size: large;
     }
-    footer i{
+
+    footer i {
         padding-top: -5px;
     }
-    h5{
+
+    h5 {
         padding-left: 18%;
     }
-    .main-content >div{
+
+    .main-content>div {
         margin-top: 100px;
     }
 }
@@ -173,7 +206,7 @@ a:hover {
     z-index: -1;
 }
 
-.orientation{
+.orientation {
     position: relative;
 }
 
@@ -196,10 +229,12 @@ a:hover {
 .button-elipse {
     background-color: rgb(26, 135, 225, 0.9);
     border-radius: 60%;
+    padding: 1% 2%;
 }
-.main-content >div{
+
+.main-content>div {
     position: absolute;
-    display:flex;
+    display: flex;
     width: 100%;
     flex-direction: column;
     align-items: center;
@@ -208,6 +243,7 @@ a:hover {
     height: 50%;
     justify-content: center;
 }
+
 /* ================classe para evitar sobreposição de cor==================== */
 .button-elipse a {
     color: #FFF;
@@ -218,6 +254,7 @@ a:hover {
     align-content: center;
     margin-left: 25%;
 }
+
 /* =============================Textos de descrições========================= */
 p {
     text-align: center;
@@ -225,6 +262,7 @@ p {
     margin-bottom: 3%;
 
 }
+
 /* ==========================Linha de separação de seções=================== */
 .vertical-line {
     position: absolute;
@@ -235,6 +273,7 @@ p {
     margin-left: 35%;
     margin-right: 35%;
 }
+
 /* ==========================Grid de fotos================================= */
 .grid-fotos {
     background-size: cover;
@@ -255,18 +294,32 @@ p {
 
 } */
 
-.email-cad{
-    display: flex;
-    margin-left: 45%;
+.email-cad {
+    display: block;
+    margin-left: 20%;
     margin-top: 10%;
     margin-bottom: 3%;
+    position: relative;
 }
-.email-cad .email{
-    border-image: round;
+
+.email-cad * {
+    border: solid;
+    box-sizing: border-box;
 }
-.email-cad .btn-cadastrar{
-    color: var(--color-light) ;
-    border-radius: 15%;
+
+.email-cad input {
+    position: relative;
+    margin-left: 25.5%;
+    border-color: var(--color-grey);
+    padding: 1% 1%;
+}
+
+.email-cad .btn-cadastrar {
+    padding: 1% 1%;
+    position: relative;
+    margin-left:1%;
+    color: var(--color-light);
+    border-radius: 10%;
     background-color: #0381ed;
 }
 
@@ -274,38 +327,42 @@ p {
     display: flex;
     background-color: var(--color-blue);
 }
-.icon-offer li{
+
+.icon-offer li {
     display: flex;
-    margin-left: 24%;
+    margin-left: 5%;
     margin-top: 5%;
     z-index: 1;
 }
-.icon-offer .descricao{
+
+.icon-offer .descricao {
     position: relative;
     top: 5%;
     left: 5%;
-
     display: flex;
-    
+
 }
+
 /* .icon-offer i{
     
 } */
 
-footer{
+footer {
     background-color: var(--color-blue2);
     padding-bottom: 5vh;
     padding-top: 1vh;
     color: #F0F8FF;
 }
-footer a{
+
+footer a {
     position: relative;
     left: 50vw;
     top: 2%;
     font-style: italic;
     transform: translate(-50%, -50%);
 }
-footer i{
+
+footer i {
     position: relative;
     left: 50vw;
     top: -2vh;
