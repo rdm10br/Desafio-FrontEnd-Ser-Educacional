@@ -92,11 +92,6 @@ img {
         object-fit: cover;
         border-radius: 5px;
     }
-    /* ul {
-        display: flex !important;
-        overflow-x: scroll;
-        gap: 10px;
-    } */
 }
 
 /* Estilos para telas médias, como tablets*/
@@ -163,7 +158,7 @@ a:hover {
 }
 
 /* Menu principal do site */
-.nav {
+.linhas {
     top: 0;
     left: 0;
     background-color: #FFF;
@@ -190,12 +185,12 @@ a:hover {
 }
 
 /* =============menu mobile============== */
-.mobile-menu {
+.mobileMenu {
     display: none;
     cursor: pointer;
 }
 
-.mobile-menu div {
+.mobileMenu div {
     width: 32px;
     height: 2px;
     background: #333;

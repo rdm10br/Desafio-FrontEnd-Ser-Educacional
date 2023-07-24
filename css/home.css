@@ -1,6 +1,6 @@
-@media (max-width: 765px) {
+@media (max-width: 767px) {
     body{
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     .nav-list{
         position: absolute;
@@ -19,7 +19,7 @@
         margin-left: 0;
         opacity: 0;
     }
-    .mobile-menu{
+    .mobileMenu{
         display: block;
     }
   }
@@ -39,14 +39,14 @@
     }
   }
   
-  .mobile-menu.active .line1 {
+  .mobileMenu.active .line1 {
     transform: rotate(-45deg) translate(-8px, 8px);
   }
   
-  .mobile-menu.active .line2 {
+  .mobileMenu.active .line2 {
     opacity: 0;
   }
   
-  .mobile-menu.active .line3 {
+  .mobileMenu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
   }
