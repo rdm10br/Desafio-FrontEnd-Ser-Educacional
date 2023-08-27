@@ -47,6 +47,8 @@ document.addEventListener('DOMContentLoaded', function () {
       function toggleMobileMenu() {
           const navList = document.querySelector('.nav-list');
           navList.classList.toggle('active');
+          const mobileMenu = document.getElementById('mobileMenu');
+          mobileMenu.classList.toggle('active');
       }
       // Attach a click event listener to the mobileMenu div
       mobileMenu.addEventListener('click', toggleMobileMenu);
